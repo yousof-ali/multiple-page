@@ -68,7 +68,7 @@
 /* main area start  */
 main{
     background-color: #2D236A;
-    padding-top: 20px;
+    padding: 30px 0px;
 }
 #main-section{
     width: 1100px;
@@ -124,8 +124,8 @@ main{
 }
 .main-footer{
     display: flex;
-    margin-top: 100px;
     justify-content: space-between;
+    margin-top: 100px;
 }
 .main-footer a{
     text-decoration: none;
@@ -153,3 +153,50 @@ main{
     color: white;
 }
 /* main area end  */
+/* footer section start  */
+footer{
+    padding: 30px 0px;
+    background-color: #541B5F;
+}
+#footer-container{
+    width: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+    grid-gap: 50px;
+    justify-content: space-between;
+}
+#footer-container h3{
+    font-size: 20px;
+    color: white;
+    padding: 30px 0px;
+}
+.footer-first p:nth-child(2){
+    margin-bottom: 50px;
+}    
+.footer-second p a{
+    color: white;
+    text-decoration: none;
+}
+.footer-second p{
+    margin-bottom: 10px;
+}
+.icon-container{
+    padding: 30px 0px;
+    font-size: 25px;
+}
+.icon-container a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #1A1244;
+}
+.footer-third p{
+    margin-bottom: 10px;
+}
+.footer-third p:nth-child(3){
+    margin-bottom: 70px;
+}
+/* footer section end  */
